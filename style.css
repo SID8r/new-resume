@@ -1,0 +1,125 @@
+body{
+    background-color:#F6F4EB ;
+}
+.background-image{
+  background-image: url("./images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+height: 600px;
+}
+.profile-image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+}
+.svg{
+    color:black;
+    display: inline-block;
+    border:2px black ;
+    height:50px;
+    width: 50px;
+    
+}
+/* border */
+
+.no-margin{
+    margin:0;
+}
+.padding{
+    padding-top: 200px;
+}
+
+/* fonts */
+
+.head-font{
+    color:#4682A9;
+    font-family: 'Borel', cursive;
+    font-size: 4rem;
+}
+.subhead-font{
+    color:#4682A9;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    margin:20px 0px;
+}
+.body-font{
+    color:#4682A9;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    margin-top:0px;
+}
+#intro{
+   color: black;
+   margin: 0px 450px;
+   
+}
+.topic{
+    color:#4682A9;
+    display: inline-block;
+    font-size: 2rem;
+    margin-left:20px ;
+    font-family:  'Borel', cursive;
+    text-decoration: underline;  
+}
+.body-topic{
+    display: block;
+    font-size: 1.5rem;
+    color:black;
+    font-family:  'Dancing Script', cursive;
+    text-decoration: none;
+}
+/* Others */
+.centre{
+    text-align: center;
+}
+hr{
+    border:dashed 5px #91C8E4 ;
+    margin:30px 700px;
+}
+.about-me{
+    display: flex;
+    gap:30px;
+}
+.about-me > div{
+    flex:1;
+}
+.flex-topic{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.left{
+    text-align: left;
+    margin-left: 50px;
+}
+.button{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family:  'Borel', cursive;
+    border-radius: 0 20%;
+    background-color:#4682A9;
+    color: #F6F4EB;
+    border: 0;
+    padding: 0 20px;
+}
+.button:hover{
+    background-color: #91C8E4;
+}
+footer{
+    background-color:#749BC2 ;
+     margin-top: 100px;
+     height: 200px;
+}
+.footer-element{
+    margin-top: 30px;
+    display: flex;
+    gap:70px;
+    justify-content: center;
+    align-items: center;
+}
+ .links{
+    margin: 30px 0;
+}
+
+
+   
+
